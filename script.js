@@ -357,16 +357,43 @@ if (scoreDolphins > scoreKoalas) {
 */
 
 // BONUS 1
-const scoreDolphins = (97 + 112 + 80) / 3;
-const scoreKoalas = (109 + 95 + 50) / 3;
-console.log(scoreDolphins, scoreKoalas);
+// const scoreDolphins = (97 + 112 + 80) / 3;
+// const scoreKoalas = (109 + 95 + 50) / 3;
+// console.log(scoreDolphins, scoreKoalas);
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log('Dolphins win the trophy 🏆');
-} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-  console.log('Koalas win the trophy 🏆');
-} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-  console.log('Both win the trophy!');
-} else {
-  console.log('No one wins the trophy 😭');
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins win the trophy 🏆');
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log('Koalas win the trophy 🏆');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//   console.log('Both win the trophy!');
+// } else {
+//   console.log('No one wins the trophy 😭');
+// }
+
+// ======================================================
+// The switch Statement
+const day = "Friday";
+
+switch (day) {
+  case "Monday": // day === "Monday"
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+    break;
+  case "Tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "Wednesday":
+  case "Thursday":
+    console.log("Write code examples");
+    break;
+  case "Friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend :D");
+    break;
+  default:
+    console.log("Not a valid day!");
 }
