@@ -1,5 +1,6 @@
 "use strict";
 
+/*
 // ======================================================
 // Activating Strict Mode
 let hasDriversLicense = false;
@@ -104,3 +105,4 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
 
 console.log(yearsUntilRetirement(1991, 'Jonas'));
 console.log(yearsUntilRetirement(1950, 'Mike'));
+*/
