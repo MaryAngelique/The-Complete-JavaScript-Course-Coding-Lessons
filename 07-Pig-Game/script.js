@@ -41,3 +41,21 @@ const switchPlayer = function () {
     player0El.classList.toggle("player--active");
     player1El.classList.toggle("player--active");
 };
+
+btnRoll.addEventListener("click", function () {
+    if (playing) {
+        const dice = Math.trunc(Math.random() * 6) + 1;
+
+        diceEl.classList.remove("hidden");
+        diceEl.src = `dice-${dice}.png`;
+
+        if (dice !== 1) {
+            currentScore += dice;
+            document.getElementById(
+                `current--${activePlayer}`
+            ).textContent = currentScore;
+        } else {
+            switchPlayer();
+        }
+    }
+});
