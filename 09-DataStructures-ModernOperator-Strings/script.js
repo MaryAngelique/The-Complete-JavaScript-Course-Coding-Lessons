@@ -551,3 +551,15 @@ console.log(users[0]?.name ?? "User array empty");
 
 if (users.length > 0) console.log(users[0].name);
 else console.log("user array empty");
+
+// ======================================================
+// The for-of Loop
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+
+for (const item of menu) console.log(item);
+
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
+
+// console.log([...menu.entries()]);\
