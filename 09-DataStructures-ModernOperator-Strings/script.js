@@ -1,3 +1,4 @@
+/*
 "use strict";
 
 // const weekdays = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
@@ -273,7 +274,7 @@ Let"s continue with our football betting app! This time, we have a map with a lo
 4. Loop over the events and log them to the console, marking whether it"s in the first half or second half (after 45 min) of the game, like this:
       [FIRST HALF] 17: ⚽️ GOAL
 GOOD LUCK 😀
-*/
+
 
 const gameEvents = new Map([
     [17, "⚽️ GOAL"],
@@ -431,7 +432,6 @@ BONUS: Create an object called "scorers" which contains the names of the players
       Lewandowski: 2
     }
 GOOD LUCK 😀
-*/
 
 const game = {
     team1: "Bayern Munich",
@@ -583,7 +583,7 @@ Suppose we get data from a web service about a certain game (below). In this cha
 TEST DATA FOR 6: Use players "Davies", "Muller", "Lewandowski" and "Kimmich". Then, call the function again with players from game.scored
 
 GOOD LUCK 😀
-*/
+
 
 // 1.
 const [players1, players2] = game.players;
@@ -822,3 +822,4 @@ const {
   fri: { open: o, close: c },
 } = openingHours;
 console.log(o, c);
+*/
